@@ -1,0 +1,57 @@
+{
+    "arabica": [
+        {
+            "foto": "images/produk/product_capuchino.jpg",
+            "nama": "Cappuccino Arabica",
+            "size": "500 Gram",
+            "harga": "200.000",
+            "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_espresso.jpg",
+            "nama": "Pahit Arabica",
+            "size": "100 Gram",
+            "harga": "100.000",
+            "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Arabica",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+        }
+    ],
+    "robusta": [
+        {
+            "foto": "images/produk/product_kopi_susu.jpg",
+            "nama": "Kopsus Robusta",
+            "size": "100 Gram",
+            "harga": "500.000",
+            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+        },
+        {
+            "foto": "images/produk/product_latte.jpg",
+            "nama": "Latte Robusta",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+        }
+    ],
+    "nonkopi": [
+        {
+            "foto": "https://i0.wp.com/www.topwisata.info/wp-content/uploads/2022/05/Es-Teh-Kekinian-1.jpg?resize=930%2C620&ssl=1",
+            "nama": "ES TEH",
+            "size": "100 Gram",
+            "harga": "500.000",
+            "link": "https://i0.wp.com/www.topwisata.info/wp-content/uploads/2022/05/Es-Teh-Kekinian-1.jpg?resize=930%2C620&ssl=1"
+        },
+        {
+            "foto": "https://i0.wp.com/i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/75df3b8d-e897-4164-ab6f-5c10ec1353f4_Go-Biz_20211201_110742.jpeg",
+            "nama": "BOBA MILK",
+            "size": "150 Gram",
+            "harga": "150.000",
+            "link": "https://i0.wp.com/i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/75df3b8d-e897-4164-ab6f-5c10ec1353f4_Go-Biz_20211201_110742.jpeg"
+        }
+    ]
+}
