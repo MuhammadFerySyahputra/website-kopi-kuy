@@ -11,6 +11,7 @@ html {
    scroll-behavior: smooth;
 }
 
+
 /* 
 Kode di bawah ini untuk mengatur nav sampai footer agar memiliki tampilan flexibel
 selengkapnya akan di bahas di hari ke 3
@@ -135,7 +136,7 @@ nav {
    untuk pengguna vscode silahkan arahkan mouse ke kotak warna di bawah
    untuk mengganti warna sesuai keinginan
    */
-   background-color: #198754;
+   background-color: purple;
 
    /* box-shadow membuat efek bayangan */
    box-shadow: 0 3px 7px -2px #000;
@@ -173,6 +174,8 @@ div.navigasi {
    margin-left: auto;
    margin-right: 15px;
 }
+
+
 
 nav a {
    color: #fff;
@@ -252,7 +255,10 @@ section.best-seller {
    position: relative;
 
    /* background-color mengatur warna latar belakang elemen */
-   background-color: #EEE6DC;
+   /* background-color: #EEE6DC; */
+
+
+
 
    /* text-align mengatur rata tulisan, bisa bernilai: left, right, center, justify */
    text-align: center;
@@ -271,7 +277,7 @@ section.best-seller::after {
    height: 76px;
 
    /* background-image untuk menambahkan gambar sebagai background */
-   background-image: url(../images/background/garis-atas.png);
+   /* background-image: url(../images/background/garis-atas.png); */
 
    /*background-size agar gambar latar menyesuaikan tinggi / lebar elemen */
    background-size: cover;
@@ -282,7 +288,7 @@ section.best-seller::after {
 
 section.best-seller::after {
    height: 60px;
-   background-image: url(../images/background/garis-bawah.png);
+   /* background-image: url(../images/background/garis-bawah.png); */
    top: unset;
    bottom: -60px;
 }
@@ -356,6 +362,7 @@ section.about-us {
    margin-left: auto;
    margin-right: auto;
    text-align: center;
+
 }
 
 section.about-us h2 {
@@ -368,6 +375,7 @@ section.about-us img {
       Penulisan width: 800px dan max-width: 100% mengatur agar
       elemen memiliki lebar 800px namun tidak boleh melebihi 100% ukuran layar
    */
+
    width: 800px;
    max-width: 100%;
    margin: auto;
@@ -384,15 +392,18 @@ section.about-us p:nth-child(2) {
 
 section.about-us p:nth-child(4) {
    margin-top: 40px;
+
 }
 
 
 /* OUR TEAM */
 
 section.our-team {
-   background-color: #EEE6DC;
+   /* background-color: #EEE6DC; */
    box-shadow: inset 0px 0px 23px -6px #707070;
    text-align: center;
+   border: 1px dark solid;
+   transition: all 0.3s ease;
 }
 
 section.our-team h2 {
@@ -428,7 +439,7 @@ div.team img {
 /* REVIEW */
 
 section.review {
-   background-image: url(../images/background/bg-review.svg);
+   /* background-image: url(../images/background/bg-review.svg); */
    /* 
       background-size: contain;
       membuat gambar latar belakang tidak terpotong
@@ -464,8 +475,17 @@ div.testimoni {
    flex-wrap: wrap;
    padding: 35px 50px;
    box-shadow: 0px 0px 12px -10px #000;
-   background-color: #fff;
+   background-color: purple;
+   border: 1px dark solid;
+   transition: all 0.3s ease;
 }
+
+div.testimoni:hover {
+   overflow: hidden;
+   transform: scale(1.1);
+}
+
+
 
 div.testimoni img {
    width: 60px;
@@ -506,16 +526,20 @@ section.contact-us iframe {
 div.kontak {
    width: 30%;
    /* color mengatur warna tulisan */
-   color: green;
+   color: purple;
    text-align: center;
    margin-top: 50px;
+}
+
+.kontak i {
+   font-size: 3rem;
 }
 
 
 /* FOOTER */
 
 footer {
-   background-color: #198754;
+   background-color: purple;
    padding-top: 15px;
    padding-bottom: 15px;
    color: #fff;
@@ -523,13 +547,29 @@ footer {
    padding-left: 40px;
 }
 
-footer div.navigasi {
+footer footer div.navigasi {
    margin-left: 20px;
    margin-right: auto;
 }
 
 footer div.navigasi a {
    padding: 8px;
+}
+
+footer p {
+   margin-bottom: 0;
+}
+
+.nav-item:after {
+   display: block;
+   content: '';
+   border-bottom: solid 3px white;
+   transform: scaleX(0);
+   transition: transform 250ms ease-in-out;
+}
+
+.nav-item:hover:after {
+   transform: scaleX(1);
 }
 
 /* UNTUK kode RESPONSIF hari ke 3 tulis DI BAWAH sini */
@@ -561,6 +601,8 @@ footer div.navigasi a {
       margin-bottom: 20px;
    }
 }
+
+
 
 
 /* Kode CSS Selesai di sini */
