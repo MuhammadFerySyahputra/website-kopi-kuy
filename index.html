@@ -7,12 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Website Kopi Kuy</title>
+    <link rel="stylesheet" href="vendor/bootstrap/vapor.css">
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <nav>
-        <img class="logo" src="images/logo/logo_kuy.png">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo/logo_kuy.png" height="40" alt="image">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav11"
+            aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="navigasi">
             <a href="#best-seller">Best Seller</a>
             <a href="#our-team">Our Team</a>
@@ -23,12 +31,16 @@
         <a class="chat" href="https://wa.me/628123456?text=Saya ingin bertanya" target="_blank">Chat</a>
     </nav>
 
+
+
+
     <!-- Tulis Kode HTML / <header> Setelah baris di bawah ini (baris 28) -->
 
     <header>
+
         <div class="kiri">
             <h1>
-                kopi kuy <img src="images/icon/icon_kopi.svg" alt="">
+                kopi kuy <i class="bi bi-cup-hot"></i>
             </h1>
             <p>
                 Kopi Kuy merupakan sebuah startup kopi retail yang ingin menyajikan
@@ -156,25 +168,33 @@
         </div>
     </section>
 
-    <section class="contact-us" id="contact-us">
+    <section class="contact-us text-align: center;" id="contact-us">
+        <h2 style="margin-bottom:70px;">CONTACT</h2>
+        <!-- <h1>test</h1> -->
+
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7932.741866032694!2d106.668581!3d-6.214715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f9912c7f297b%3A0xe5a3a671dae861ab!2sKopi%20kuy!5e0!3m2!1sid!2sid!4v1680617229460!5m2!1sid!2sid"
             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         <div class="kontak">
-            <img src="images/icon/icon_phone.png" alt="">
-            <p>Telp: +62 (812) 9046 5034</p>
+            <a class="btn btn-outline-ungu ms-md-3" href="">
+                <i class="bi bi-telephone"></i>
+                <p>Telp: +62 (812) 9046 5034</p>
+            </a>
         </div>
         <div class="kontak">
-            <img src="images/icon/icon_mail.png" alt="">
-            <p>Email: hello@kopikuy.com</p>
+            <a class="btn btn-outline-ungu ms-md-3" href="">
+                <i class="bi bi-envelope"></i>
+                <p>HELLO@KOPIKUY.COM</p>
+            </a>
+
         </div>
         <div class="kontak">
-            <img src="images/icon/icon_instagram.png" alt="">
-            <p>Instagram: @kopi.kuy</p>
-        </div>
-        <div class="kontak">
-            <img src="" alt="">
-            <p></p>
+            <a class="btn btn-outline-ungu ms-md-3" href="">
+                <!-- <img src="images/icon/icon_instagram.png" alt=""> -->
+                <i class="bi bi-instagram "></i>
+                <p>INSTAGRAM</p>
+            </a>
         </div>
     </section>
 
@@ -187,6 +207,33 @@
         </div>
         <p>Copyright kopi kuy: © 2023 Kopi Kuy. All Rights Reserved</p>
     </footer>
+
+    <!-- <footer class="riki-block footer-small py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <ul class="nav justify-content-center justify-content-md-start">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#best-seller">Best Seller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#our-team">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p>Copyright kopi kuy: © 2023 Kopi Kuy. All Rights Reserved</p>
+    </footer> -->
+
+
+
 
 
     <!--
